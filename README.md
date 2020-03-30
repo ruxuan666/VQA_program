@@ -30,4 +30,4 @@ $ python train.py
 
 - Loss and Accuracy on VQA datasets v2
 
-![train1](./png/train.png)
+![results](./png/train1.png)
