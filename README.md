@@ -20,7 +20,7 @@ $ ./download_and_unzip_datasets.csh
 $ python resize_images.py --input_dir='../datasets/Images' --output_dir='../datasets/Resized_Images' 
 -对问题做切词，制作问题词典，0:<pad>,1:<unk>;选取前1000个最大词频的answers,0:<unk>，相当于多分类问题
 $ python make_vacabs_for_questions_answers.py --input_dir='../datasets'
--整合图片（名字、路径）、问题（id,问题str,切词列表）与答案（10个全部答案列表，有效答案列表（在answers字典中的answers））（从有效答案中随机选择一个作为标签）
+-整合图片（名字、路径）、问题（id,问题str,切词列表）与答案（10个全部答案列表，有效答案列表（在answer字典中的answers））（从有效答案中随机选择一个作为标签）
 $ python build_vqa_inputs.py --input_dir='../datasets' --output_dir='../datasets'
 （resize_images.py需要替换注释函数）
 ```
