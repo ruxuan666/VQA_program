@@ -1,6 +1,7 @@
 该项目学习了 https://github.com/tbmoon/basic_vqa 的工作，以期对VQA有深入地了解。
 # 文献
 Pytorch implementation of the paper - VQA: Visual Question Answering (https://arxiv.org/pdf/1505.00468.pdf).
+
 ![model](./png/basic_model.png)
 
 ## Usage 
