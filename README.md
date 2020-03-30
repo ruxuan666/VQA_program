@@ -5,7 +5,6 @@ Pytorch implementation of the paper - VQA: Visual Question Answering (https://ar
 ![model](./png/basic_model.png)
 
 ## Usage 
-
 #### 1. Download and unzip the dataset from official url of VQA: https://visualqa.org/download.html.
 
 ```bash
